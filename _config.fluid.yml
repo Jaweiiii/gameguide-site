@@ -1,0 +1,132 @@
+# Fluid主题配置 - 游戏攻略站
+
+# 导航栏
+navbar:
+  blog_title: 游戏攻略站
+  menu:
+    - { key: "首页", link: "/" }
+    - { key: "艾尔登法环", link: "/categories/elden-ring/" }
+    - { key: "黑神话悟空", link: "/categories/black-myth-wukong/" }
+    - { key: "塞尔达传说", link: "/categories/zelda/" }
+    - { key: "更多游戏", link: "/categories/" }
+    - { key: "搜索", link: "/search/" }
+
+# 页脚
+footer:
+  content: '
+    <a href="https://gameguide.vercel.app" rel="nofollow noopener">游戏攻略站</a>
+    | 专注Steam单机·主机游戏攻略
+  '
+  statistics: false
+
+# 首页配置
+index:
+  banner:
+    enable: true
+    title: 游戏攻略站
+    subtitle: Steam单机·主机游戏·最全攻略
+    banner_img: /img/default.png
+  post_url_target: _self
+  post_meta:
+    date: true
+    category: true
+    tag: true
+  post_sticky:
+    enable: true
+    icon: "thumbtack"
+
+# 文章页配置
+post:
+  banner:
+    enable: false
+  meta:
+    date: true
+    category: true
+    tag: true
+  toc:
+    enable: true
+    heading: 目录
+    collapse: false
+  copyright:
+    enable: true
+    content: |
+      本文作者：GameGuide
+      本文链接：{url}
+      版权声明：自由转载-非商用-非衍生-保持署名（创意共享3.0许可证）
+
+# 代码块
+code:
+  copy_btn: true
+  highlight:
+    enable: true
+
+# 自定义CSS - 广告位样式
+custom_css:
+  - /css/ad.css
+
+# 自定义JS - 广告和统计
+custom_js:
+  - /js/ad.js
+
+# 搜索页
+search:
+  enable: true
+  path: search.xml
+  field: post
+  content: true
+
+# 页面配置
+page:
+  meta:
+    date: false
+    tag: true
+
+# 归档页
+archive:
+  banner:
+    enable: false
+
+# 分类页
+category:
+  banner:
+    enable: false
+  header:
+    enable: true
+    title: 分类
+
+# 标签页
+tag:
+  banner:
+    enable: false
+
+# 关于页
+about:
+  banner:
+    enable: false
+
+# SEO
+seo:
+  enable: true
+  description: 专注Steam单机和主机游戏攻略，提供最全面的游戏通关指南
+  keywords: 游戏攻略,Steam攻略,主机游戏,单机游戏,通关指南
+
+# 夜间模式
+dark_mode:
+  enable: true
+  auto: true
+
+# 返回顶部
+scroll_to_top:
+  enable: true
+
+# 字体
+font:
+  font_size: 16px
+  font_family: "'PingFang SC', 'Microsoft YaHei', sans-serif"
+
+# 颜色主题 - 游戏风
+color:
+  primary: "#6C5CE7"
+  secondary: "#A29BFE"
+  accent: "#FD79A8"
+  bg: "#FAFAFA"

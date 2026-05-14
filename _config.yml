@@ -1,0 +1,101 @@
+# 网站配置
+title: 游戏攻略站
+subtitle: Steam单机 · 主机游戏 · 攻略大全
+description: 专注Steam单机和主机游戏攻略，提供最全面的游戏通关指南、隐藏要素、Boss打法、装备收集等攻略内容
+keywords: 游戏攻略,Steam攻略,主机游戏,单机游戏,通关指南,Boss打法
+author: GameGuide
+language: zh-CN
+timezone: Asia/Shanghai
+
+# URL配置
+url: https://gameguide.vercel.app
+root: /
+permalink: :category/:title.html
+permalink_defaults:
+  lang: cn
+
+# 目录配置
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+
+# 写作配置
+new_post_name: :title.md
+default_layout: post
+titlecase: false
+external_link:
+  enable: true
+  field: site
+  exclude: ''
+filename_case: 0
+render_drafts: false
+post_asset_folder: true
+relative_link: false
+future: true
+highlight:
+  enable: true
+  line_number: true
+  auto_detect: false
+  tab_replace: ''
+  wrap: true
+  hljs: false
+
+# 主页设置
+index_generator:
+  path: ''
+  per_page: 10
+  order_by: -date
+
+# 分类和标签
+default_category: uncategorized
+category_map:
+  艾尔登法环: elden-ring
+  塞尔达传说: zelda
+  黑神话悟空: black-myth-wukong
+  博德之门3: baldurs-gate-3
+  赛博朋克2077: cyberpunk-2077
+  对马岛之魂: ghost-of-tsushima
+  荒野大镖客2: red-dead-redemption-2
+  只狼: sekiro
+  星空: starfield
+  原神: genshin-impact
+tag_map:
+
+# 日期格式
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+
+# 分页
+per_page: 10
+pagination_dir: page
+
+# 主题
+theme: fluid
+
+# 部署配置
+deploy:
+  type: ''
+
+# 搜索功能
+search:
+  path: search.xml
+  field: post
+  content: true
+  format: html
+
+# Markdown配置
+markdown:
+  preset: 'default'
+  render:
+    html: true
+    xhtmlOut: false
+    breaks: true
+    linkify: true
+    typographer: true
+
+# 站点地图（SEO）
+sitemap:
+  path: sitemap.xml
