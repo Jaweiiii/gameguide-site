@@ -8,6 +8,8 @@ tags:
   - DLC攻略
   - 黄金树幽影
   - 探索指南
+index_img: https://picsum.photos/seed/eldenring/800/400
+banner_img: https://picsum.photos/seed/eldenring/1200/400
 description: 艾尔登法环DLC黄金树幽影全攻略，包含新区域探索路线、新Boss打法、隐藏道具获取和最佳武器推荐。
 keywords: 艾尔登法环DLC,黄金树幽影攻略,艾尔登法环新Boss,暗影之地
 ---

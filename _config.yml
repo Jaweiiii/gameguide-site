@@ -8,7 +8,7 @@ language: zh-CN
 timezone: Asia/Shanghai
 
 # URL配置
-url: https://gameguide.vercel.app
+url: https://jaweiiii.github.io/gameguide-site
 root: /
 permalink: :category/:title.html
 permalink_defaults:

@@ -2,19 +2,19 @@
 
 # 导航栏
 navbar:
-  blog_title: 游戏攻略站
+  blog_title: 🎮 游戏攻略站
   menu:
-    - { key: "首页", link: "/" }
-    - { key: "艾尔登法环", link: "/categories/elden-ring/" }
+    - { key: "首页", link: "/", icon: "iconfont icon-home-fill" }
     - { key: "黑神话悟空", link: "/categories/black-myth-wukong/" }
-    - { key: "塞尔达传说", link: "/categories/zelda/" }
-    - { key: "更多游戏", link: "/categories/" }
-    - { key: "搜索", link: "/search/" }
+    - { key: "艾尔登法环", link: "/categories/elden-ring/" }
+    - { key: "塞尔达", link: "/categories/zelda/" }
+    - { key: "博德之门3", link: "/categories/baldurs-gate-3/" }
+    - { key: "全部分类", link: "/categories/" }
 
 # 页脚
 footer:
   content: '
-    <a href="https://gameguide.vercel.app" rel="nofollow noopener">游戏攻略站</a>
+    <a href="https://jaweiiii.github.io/gameguide-site/">游戏攻略站</a>
     | 专注Steam单机·主机游戏攻略
   '
   statistics: false
@@ -23,9 +23,10 @@ footer:
 index:
   banner:
     enable: true
-    title: 游戏攻略站
-    subtitle: Steam单机·主机游戏·最全攻略
-    banner_img: /img/default.png
+    title: 🎮 游戏攻略站
+    subtitle: Steam单机 · 主机游戏 · 通关攻略 · Boss打法 · 隐藏收集
+    banner_img: https://picsum.photos/seed/gamebanner/1600/500
+    banner_img_height: 60
   post_url_target: _self
   post_meta:
     date: true
@@ -38,14 +39,15 @@ index:
 # 文章页配置
 post:
   banner:
-    enable: false
+    enable: true
+    banner_img_height: 50
   meta:
     date: true
     category: true
     tag: true
   toc:
     enable: true
-    heading: 目录
+    heading: 📋 目录
     collapse: false
   copyright:
     enable: true
@@ -60,7 +62,7 @@ code:
   highlight:
     enable: true
 
-# 自定义CSS - 广告位样式
+# 自定义CSS - 美化样式
 custom_css:
   - /css/ad.css
 
@@ -113,6 +115,7 @@ seo:
 # 夜间模式
 dark_mode:
   enable: true
+  default: system
   auto: true
 
 # 返回顶部
@@ -123,10 +126,4 @@ scroll_to_top:
 font:
   font_size: 16px
   font_family: "'PingFang SC', 'Microsoft YaHei', sans-serif"
-
-# 颜色主题 - 游戏风
-color:
-  primary: "#6C5CE7"
-  secondary: "#A29BFE"
-  accent: "#FD79A8"
-  bg: "#FAFAFA"
+  code_font_size: 14px

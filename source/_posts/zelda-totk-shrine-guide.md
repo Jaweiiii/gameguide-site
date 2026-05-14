@@ -8,6 +8,8 @@ tags:
   - 王国之泪
   - 神庙攻略
   - 全收集
+index_img: https://picsum.photos/seed/zelda/800/400
+banner_img: https://picsum.photos/seed/zelda/1200/400
 description: 塞尔达传说王国之泪全152个神庙攻略，包含每个神庙的位置、解法和宝箱获取方法，助你完成全收集。
 keywords: 王国之泪神庙,塞尔达神庙攻略,王国之泪全收集,神庙位置
 ---

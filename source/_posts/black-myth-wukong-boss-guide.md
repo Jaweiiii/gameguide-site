@@ -8,6 +8,8 @@ tags:
   - Boss攻略
   - 通关指南
 description: 黑神话悟空全Boss打法攻略，包含每个Boss的弱点、攻击模式、推荐装备和打法技巧，帮你轻松通关。
+index_img: https://picsum.photos/seed/wukong/800/400
+banner_img: https://picsum.photos/seed/wukong/1200/400
 keywords: 黑神话悟空Boss攻略,黑神话悟空打法,悟空全Boss,黑神话通关
 ---
 

@@ -8,6 +8,8 @@ tags:
   - 职业攻略
   - Build推荐
   - 最佳搭配
+index_img: https://picsum.photos/seed/bg3/800/400
+banner_img: https://picsum.photos/seed/bg3/1200/400
 description: 博德之门3全12职业最佳Build攻略，包含属性加点、专长选择、法术搭配和队伍组合推荐，助你打造最强小队。
 keywords: 博德之门3职业,BG3 Build,BG3最佳职业,博德之门3搭配
 ---
