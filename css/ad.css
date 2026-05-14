@@ -1,0 +1,86 @@
+/* ========== 游戏攻略站美化 ========== */
+
+/* 文章卡片 */
+.index-card {
+  border-radius: 10px !important;
+  padding: 20px 24px !important;
+  margin-bottom: 20px !important;
+  transition: box-shadow 0.3s ease !important;
+  border: 1px solid rgba(0,0,0,0.06) !important;
+}
+.index-card:hover {
+  box-shadow: 0 8px 30px rgba(0,0,0,0.1) !important;
+}
+
+/* 文章标题 */
+.index-header a {
+  font-weight: 700 !important;
+  font-size: 1.15rem !important;
+  color: #2d3436 !important;
+  transition: color 0.2s !important;
+}
+.index-header a:hover {
+  color: #6C5CE7 !important;
+}
+
+/* 摘要文字 */
+.index-excerpt {
+  color: #636e72 !important;
+  font-size: 0.93rem !important;
+  line-height: 1.7 !important;
+  margin: 8px 0 !important;
+}
+
+/* 标签 */
+.post-meta a[href*="/tags/"] {
+  color: #6C5CE7 !important;
+  font-weight: 500 !important;
+}
+.post-meta a[href*="/tags/"]:hover {
+  color: #a29bfe !important;
+}
+
+/* 分类 */
+.category-chain-item {
+  color: #0984e3 !important;
+  font-weight: 500 !important;
+}
+
+/* 导航栏 */
+.navbar {
+  box-shadow: 0 1px 10px rgba(0,0,0,0.06) !important;
+}
+
+/* 页脚 */
+footer {
+  background: #1a1a2e !important;
+  padding: 24px 0 !important;
+}
+footer,
+footer * {
+  color: rgba(255,255,255,0.65) !important;
+}
+footer a {
+  color: #a29bfe !important;
+}
+
+/* 文章页标题下划线 */
+#article-container h2 {
+  border-bottom: 2px solid #6C5CE7;
+  padding-bottom: 6px;
+}
+
+/* 暗色模式 */
+[data-user-color-scheme="dark"] .index-card {
+  background: #1e1e2e !important;
+  border-color: rgba(255,255,255,0.06) !important;
+}
+[data-user-color-scheme="dark"] .index-header a {
+  color: #dfe6e9 !important;
+}
+[data-user-color-scheme="dark"] .index-excerpt {
+  color: #b2bec3 !important;
+}
+[data-user-color-scheme="dark"] body {
+  background: #121212 !important;
+}
